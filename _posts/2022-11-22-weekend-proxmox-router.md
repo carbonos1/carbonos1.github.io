@@ -57,7 +57,7 @@ When deciding on the software for my router, I decided on the following for each
 
 The Logical Diagram of the solution looked like as follows:
 
-![Quinton Logical Diagram.drawio](/home/carbonos1/Downloads/Quinton Logical Diagram.drawio.png)
+![Quinton Logical Diagram.drawio](../2022-11-22-graphics/Quinton Logical Diagram.drawio.png)
 
 This diagram is an accurate representation of the router as of 20/11/22.  Additional work will need to be done to allow it to interact with the TPG internet service I am currently using.
 
