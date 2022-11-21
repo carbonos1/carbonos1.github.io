@@ -1,8 +1,8 @@
-# Weekend Proxmox Server Project
+## Weekend Proxmox Server Project
 
 
 
-## Intro
+### Intro
 
 I've recently been looking for a project to complete on the weekend. Virtualising my router always sounded like a bit of fun, so I decided to give it a go!
 
@@ -10,7 +10,7 @@ This is a project that a friend of mine had also completed. This, combined with 
 
 Knowing myself, I thought I should document how I built out the initial setup, and since this is a personal project I thought I should try half-assing a blog for documentation.
 
-## My Approach to the Solution
+### My Approach to the Solution
 
 I had a few key criteria I was looking for when picking software and hardware. These were:
 
@@ -84,11 +84,11 @@ LAN-Cache automatically stores files in instances where they could be frequently
 
 
 
-## Testing
+### Testing
 
 As you can imagine, for Australian internet standards, this router is extremely overkill. However, from a LAN perspective it is interesting to see how it performs. I was primarily interested in seeing how the virtual bridges performed. Since I don't have any 2.5gb capable devices as well, I was only able to test up to 1gb/s worth of throughput of the physical NIC.
 
-### iPerf Tests:
+#### iPerf Tests:
 
 **<u>Proxmox Host to PFsense host connection:</u>**
 
