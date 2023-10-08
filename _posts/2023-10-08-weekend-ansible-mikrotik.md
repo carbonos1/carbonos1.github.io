@@ -112,7 +112,7 @@ Our third play uses the gather_facts command to gather as many variables about t
 
 Our Fourth play grabs an IP address learnt about in our first play, and prints it to the screen as part of a message.
 
-For more  documentation on building RouterOS Configs using SSH, see [This Guide](https://docs.ansible.com/ansible/latest/collections/community/routeros/docsite/ssh-guide.htmlhttps://docs.ansible.com/ansible/latest/collections/community/routeros/docsite/ssh-guide.html) which is part of the ansible documentation.
+For more  documentation on building RouterOS Configs using SSH, see [This Guide](https://docs.ansible.com/ansible/latest/collections/community/routeros/docsite/ssh-guide.html) which is part of the ansible documentation.
 
 #### Example output:
 ```
