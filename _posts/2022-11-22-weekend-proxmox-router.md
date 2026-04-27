@@ -1,8 +1,9 @@
 ---
-title: "Weekend Proxmox Server Project"
 date: 2022-11-22
 layout: post
 ---
+
+## Weekend Proxmox Server Project
 
 ### Intro
 

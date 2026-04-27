@@ -1,8 +1,9 @@
 ---
-title: "Weekend Side-Project: Ansible on Mikrotik routers"
 date: 2023-10-08
 layout: post
 ---
+
+## Weekend Side-Project: Ansible on Mikrotik routers
 
 ### Intro
 

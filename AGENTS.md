@@ -9,7 +9,8 @@ This repository is a Jekyll-based GitHub Pages site using the `minima` theme.
 
 ## High-Signal Quirks & Conventions
 
-- **Front Matter Transition:** Historically, posts used `jekyll-titles-from-headings` without YAML front matter. We are transitioning to standard YAML front matter (`---`) for better SEO and flexibility.
+- **Front Matter Required:** All posts MUST have standard YAML front matter (`---`) with a `date` and `layout: post`. 
+- **Titles from Headings:** The `jekyll-titles-from-headings` plugin is ENABLED. Do NOT put a `title` in the front matter. Instead, the very first line of the markdown body must be the title formatted as a Level 2 header (e.g., `## My Title`). This heading will be extracted as the page title and stripped from the post content.
 - **Syntax Highlighting Transition:** Moving from client-side `highlight.js` to server-side Rouge. Check `_config.yml` for the current status of `kramdown.syntax_highlighter`.
 - **Asset Paths / Images Transition:** Moving images from `_posts/` sidecar folders to `/assets/images/`. Use relative paths or `{{ site.baseurl }}` instead of absolute GitHub URLs.
 - **Custom Styling:** Custom CSS overrides are located in `css/override.css`. Custom templates live in `_layouts/` and `_includes/`.
