@@ -22,6 +22,14 @@ theme: "minima"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://carbonos1.github.io" # the base hostname & protocol for your site
 
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .github/
+  - .jekyll-cache/
+
 rss: rss
 
 kramdown:
