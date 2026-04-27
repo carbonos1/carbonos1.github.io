@@ -19,12 +19,13 @@ linkedin_username: "thomas-o-connor-67bb8a172"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://carbonos1.github.io" # the base hostname & protocol for your site
 
 rss: rss
 
 kramdown:
-  syntax_highlighter_opts:
-    disable: true
+  syntax_highlighter: rouge
     
 plugins:
   - jekyll-feed

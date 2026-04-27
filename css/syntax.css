@@ -1,0 +1,35 @@
+/* GitHub style for Rouge */
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w { color: #24292e; background-color: #f6f8fa; }
+.highlight .err { color: #a61717; background-color: #e3d2d2; }
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt { color: #d73a49; font-weight: bold; }
+.highlight .p { color: #24292e; }
+.highlight .ni { color: #6f42c1; }
+.highlight .ge { font-style: italic; }
+.highlight .gs { font-weight: bold; }
+.highlight .o { color: #d73a49; font-weight: bold; }
+.highlight .ow { color: #d73a49; font-weight: bold; }
+.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #6a737d; font-style: italic; }
+.highlight .cp, .highlight .cpf { color: #005cc5; font-weight: bold; }
+.highlight .g, .highlight .gd, .highlight .gi, .highlight .gr, .highlight .gt { color: #24292e; }
+.highlight .gd { color: #b31d28; background-color: #ffeef0; }
+.highlight .gi { color: #22863a; background-color: #f0fff4; }
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: #005cc5; }
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #032f62; }
+.highlight .na { color: #6f42c1; }
+.highlight .nb { color: #005cc5; }
+.highlight .nc { color: #6f42c1; font-weight: bold; }
+.highlight .no { color: #005cc5; }
+.highlight .nd { color: #6f42c1; font-weight: bold; }
+.highlight .ne, .highlight .nf, .highlight .fm { color: #6f42c1; font-weight: bold; }
+.highlight .nn { color: #24292e; }
+.highlight .nt { color: #22863a; }
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi { color: #e36209; }
+.highlight .ow { font-weight: bold; }
+.highlight .gh { color: #005cc5; font-weight: bold; }
+.highlight .gu { color: #005cc5; font-weight: bold; }
+.highlight .kc { color: #d73a49; font-weight: bold; }
+.highlight .sr { color: #032f62; }
+.highlight .m { color: #005cc5; }
+.highlight .s { color: #032f62; }

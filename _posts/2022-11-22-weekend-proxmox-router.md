@@ -1,6 +1,8 @@
-## Weekend Proxmox Server Project
-
-
+---
+title: "Weekend Proxmox Server Project"
+date: 2022-11-22
+layout: post
+---
 
 ### Intro
 
@@ -35,11 +37,11 @@ An Intel Celeron N5105 4 Core Firewall unit from Topton computer on Aliexpress. 
 
 
 
-![PXL_20221118_090039950](https://github.com/carbonos1/carbonos1.github.io/blob/main/_posts/2022-11-22-graphics/PXL_20221118_090039950.jpg)
+![PXL_20221118_090039950]({{ site.baseurl }}/assets/images/posts/2022-11-22/PXL_20221118_090039950.jpg)
 
 
 
-![PXL_20221119_050615043](https://github.com/carbonos1/carbonos1.github.io/blob/main/_posts/2022-11-22-graphics/PXL_20221119_050615043.jpg)
+![PXL_20221119_050615043]({{ site.baseurl }}/assets/images/posts/2022-11-22/PXL_20221119_050615043.jpg)
 
 ### Software:
 
@@ -57,7 +59,7 @@ When deciding on the software for my router, I decided on the following for each
 
 The Logical Diagram of the solution looked like as follows:
 
-![Quinton Logical Diagram.drawio](https://github.com/carbonos1/carbonos1.github.io/blob/main/_posts/2022-11-22-graphics/Quinton%20Logical%20Diagram.drawio.png)
+![Quinton Logical Diagram.drawio]({{ site.baseurl }}/assets/images/posts/2022-11-22/Quinton%20Logical%20Diagram.drawio.png)
 
 This diagram is an accurate representation of the router as of 20/11/22.  Additional work will need to be done to allow it to interact with the TPG internet service I am currently using.
 
@@ -92,21 +94,21 @@ As you can imagine, for Australian internet standards, this router is extremely 
 
 **<u>Proxmox Host to PFsense host connection:</u>**
 
-![312708613_600343885177782_7901942438424020443_n](https://github.com/carbonos1/carbonos1.github.io/blob/main/_posts/2022-11-22-graphics/Proxmox-pfsense.png)
+![312708613_600343885177782_7901942438424020443_n]({{ site.baseurl }}/assets/images/posts/2022-11-22/Proxmox-pfsense.png)
 
 
 
 **<u>Pihole Container to Proxmox Host</u>**
 
-![313898247_629872635557373_2093165718693338476_n](https://github.com/carbonos1/carbonos1.github.io/blob/main/_posts/2022-11-22-graphics/pihole-to-proxmox.png)
+![313898247_629872635557373_2093165718693338476_n]({{ site.baseurl }}/assets/images/posts/2022-11-22/pihole-to-proxmox.png)
 
 **<u>Laptop (Thinkpad T480 ) to PFsense via Proxmox</u>**
 
-![laptop-to-pfsense-via-proxmox](https://github.com/carbonos1/carbonos1.github.io/blob/main/_posts/2022-11-22-graphics/laptop-to-pfsense-via-proxmox.png)
+![laptop-to-pfsense-via-proxmox]({{ site.baseurl }}/assets/images/posts/2022-11-22/laptop-to-pfsense-via-proxmox.png)
 
 **<u>Laptop (Thinkpad T480) to PFsense via ETH1</u>**
 
-![laptop-to-pfsense-direct](https://github.com/carbonos1/carbonos1.github.io/blob/main/_posts/2022-11-22-graphics/laptop-to-pfsense-direct.png)
+![laptop-to-pfsense-direct]({{ site.baseurl }}/assets/images/posts/2022-11-22/laptop-to-pfsense-direct.png)
 
 
 
